@@ -6,10 +6,6 @@ import Projects from "../components/Projects";
 import Research from "../components/Research";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
-import Education from "../components/Education";
-import Achievements from "../components/Achievements";
-import CoCurricular from "../components/CoCurricular";
-import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -22,10 +18,6 @@ export default function Home() {
       <Research />
       <Experience />
       <Skills />
-      <Education />
-      <Achievements />
-      <CoCurricular />
-      <Contact />
     </main>
   );
 }

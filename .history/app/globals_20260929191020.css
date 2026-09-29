@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark-first color palette */
+  --bg-color: #060b13; /* Deep navy / near-black */
+  --text-primary: #e2e8f0; /* Light gray text */
+  --text-secondary: #94a3b8; /* Muted gray for descriptions */
+  --accent: #0ea5e9; /* Clean Cyan/Blue accent */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  /* Smooth scrolling for anchor links */
+  scroll-behavior: smooth; 
+}
+
+/* Premium text selection color */
+::selection {
+  background-color: rgba(14, 165, 233, 0.3); /* Transparent cyan */
+  color: #ffffff;
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #060b13;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
