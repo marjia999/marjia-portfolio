@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Marjia Khatun Portfolio",
-  },
+  },,
 };
 
 export default function RootLayout({
